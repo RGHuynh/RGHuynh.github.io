@@ -38,3 +38,35 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
 }
+
+.main {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin-left: 8px;
+  margin-right: 8px;
+  border-radius: 15px;
+}
+
+.card--title {
+  margin-top: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+
+.project {
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  margin-bottom: 16px;
+  border-radius: 15px;
+
+}
