@@ -19,7 +19,7 @@
       },
       {
         url: "https://www.linkedin.com/in/randallhuynh/",
-        icon: "/app/assets/images/linkedin.svg"
+        icon: "/app/assets/images/linkedIn.svg"
       }
     ]
 
