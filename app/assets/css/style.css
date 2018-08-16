@@ -18,6 +18,24 @@ body {
   position: relative;
 }
 
+.navigation {
+  width: 100%;
+  height: 56px;
+}
+
+.menuButton {
+  float: right;
+  margin-top: 16px;
+  margin-right: 16px;
+}
+
+.menu--bar {
+  height: 4px;
+  width: 32px;
+  background: #f53a33;
+  margin-bottom: 2px;
+}
+
 .header {
   position: relative;
   display: flex;
@@ -29,7 +47,7 @@ body {
 
 .header--title{
   font-family: 'Hind', sans-serif; 
-  margin-top: 128px;
+  margin-top: 72px;
   font-size: 32px;
   margin-bottom: 0;
   color: #3b0031;
@@ -91,6 +109,14 @@ body {
   margin: auto;
   margin-bottom: 8px;
   border-radius: 20px;
+  display: block;
+}
+
+.project--image {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
 }
 
 .footer {
@@ -114,3 +140,4 @@ body {
   font-size: 16px;
   color: #3b0031;
 }
+
