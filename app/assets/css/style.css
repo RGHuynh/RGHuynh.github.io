@@ -134,6 +134,20 @@ body {
   padding: 0;
 }
 
+.social-media {
+  height: 102px;
+}
+
+.icon {
+  border: 2px solid #f53a33;
+  height: 38px;
+  width: 38px;
+  border-radius: 100%;
+  margin-top: 61px;
+  margin-left: 8px;
+  margin-right: 8px;
+  display: inline-block;
+}
 .footer--title {
   font-family: 'Montserrat', sans-serif;
   margin-top: 96px;
