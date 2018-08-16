@@ -129,7 +129,7 @@ body {
   left: 0;
   padding: 1rem;
   z-index: -1;
-  height: 272px;
+  height: 100%;
   margin-top: -56px;
   padding: 0;
 }
