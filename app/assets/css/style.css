@@ -24,14 +24,15 @@ body {
   flex-direction: column;
   text-align: center;
   background: rgba(244, 221, 95);
-  height: 500px;
+  height: 400px;
 }
 
 .header--title{
   font-family: 'Hind', sans-serif; 
   margin-top: 128px;
-  font-size: 43px;
+  font-size: 32px;
   margin-bottom: 0;
+  color: #3b0031;
 }
 
 .header__wrapper {
@@ -40,13 +41,15 @@ body {
 
 .header--intro {
   font-family: 'Montserrat', sans-serif;
-  font-size: 26px;
+  font-size: 16px;
+  color: #3b0031;
 }
 
 .header--text {
-  margin-top: 15px;
+  margin-top: 5px;
   font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+  font-size: 12px;
+  color: #3b0031;
 }
 
 .main {
@@ -62,36 +65,36 @@ body {
   flex-direction: column;
   padding-left: 30px;
   padding-right: 30px;
-  border-radius: 15px;
-  box-shadow: 0px 4px 60px grey;
+  border-radius: 20px;
+  box-shadow: 0px 2px 4px 0 rgba(0,0,0,0.50);
   position: absolute;
   left: 50%;
-  margin-top: -100px;
-  margin-left: -192px;
+  margin-top: -56px;
+  margin-left: -182px;
   background: white;
-  max-width: 100%;
-  min-width: 320px;
+  min-width: 304px;
+  height: 400px;
 }
 
 .card--title {
-  margin-top: 16px;
+  margin-top: 28px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 22px;
+  font-size: 16px;
   margin-bottom: 16px;
+  color: #3b0031;
 }
 
 .project {
-  border: 1px solid black;
-  height: 200px;
-  width: 200px;
+  border: 1px solid #e4e4e4;
+  height: 144px;
+  width: 144px;
   margin: auto;
-  margin-bottom: 16px;
-  border-radius: 15px;
+  margin-bottom: 8px;
+  border-radius: 20px;
 }
 
 .footer {
   background: rgba(244, 221, 95);
-  height: 200px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -100,10 +103,14 @@ body {
   left: 0;
   padding: 1rem;
   z-index: -1;
+  height: 272px;
+  margin-top: -56px;
+  padding: 0;
 }
 
 .footer--title {
   font-family: 'Montserrat', sans-serif;
-  margin-top: 105px;
+  margin-top: 96px;
   font-size: 16px;
+  color: #3b0031;
 }
