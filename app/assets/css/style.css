@@ -1,7 +1,11 @@
 .navigation {
   width: 100%;
   height: 56px;
-  margin-top: 16px; }
+  margin-top: 16px;
+  position: relative;
+  display: block;
+  position: relative;
+  user-select: none; }
 
 .header {
   position: relative;
@@ -30,18 +34,60 @@
   font-size: 12px;
   color: #3b0031; }
 
+.menu {
+  position: absolute;
+  width: 232px;
+  height: 100vh;
+  right: 0px;
+  z-index: 1;
+  top: 0;
+  background: #3b0030;
+  margin-top: -16px;
+  transform-origin: 0% 0%;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1); }
+
+.menu--disable {
+  transform: none; }
+
+.menu--enable {
+  transform: translate(100%, 0); }
+
+.menu--style {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 137px; }
+
+.menu--item {
+  font-family: "Roboto", sans-serif;
+  margin-top: 16px;
+  color: rgba(255, 255, 255, 0.46); }
+
+.menuButton--checkbox {
+  position: absolute;
+  display: block;
+  right: 14px;
+  margin: 8px;
+  top: 13px;
+  width: 19px;
+  opacity: 0;
+  z-index: 3; }
+
 h1, h2, h3 {
   margin: 0;
   padding: 0; }
 
 html {
   min-height: 100%;
-  overflow: scroll; }
+  overflow: scroll;
+  overflow-x: hidden; }
 
 ::-webkit-scrollbar {
   height: 0px;
   width: 0px;
   background: transparent; }
+
+a {
+  text-decoration: none; }
 
 body {
   margin: 0;
@@ -50,9 +96,11 @@ body {
   height: 50vh; }
 
 .menuButton {
-  float: right;
+  position: absolute;
+  right: 0px;
   margin-top: 16px;
-  margin-right: 16px; }
+  margin-right: 16px;
+  z-index: 2; }
 
 .menu--bar {
   height: 4px;

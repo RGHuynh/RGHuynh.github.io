@@ -1,7 +1,14 @@
+<input class="menuButton--checkbox" type="checkbox" ng-model="checked">
 <div class="menuButton">
-  <a href="#">
-    <div class="menu--bar"></div>
-    <div class="menu--bar"></div>
-    <div class="menu--bar"></div>
-  </a>
+  <div class="menu--bar"></div>
+  <div class="menu--bar"></div>
+  <div class="menu--bar"></div>
+</div>
+
+<div class="menu" ng-class="{'menu--enable': checked, 'menu--disable': !checked}">
+  <ul class="menu--style">
+    <a href=""><li class="menu--item">Projects</li></a>
+    <a href=""><li class="menu--item">Contact</li></a>
+    <a href=""><li class="menu--item">About</li></a>
+  </ul>
 </div>

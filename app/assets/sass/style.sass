@@ -1,21 +1,24 @@
 @import navigation
 @import header
+@import menu
 
 h1, h2, h3 
   margin: 0
   padding: 0
 
-
 html 
   min-height: 100%
   overflow: scroll
+  overflow-x: hidden
 
 ::-webkit-scrollbar 
   height: 0px
   width: 0px
   background: transparent
  
-
+a
+  text-decoration: none
+  
 body 
   margin: 0
   padding: 0
@@ -24,9 +27,11 @@ body
 
 
 .menuButton 
-  float: right
+  position: absolute
+  right: 0px
   margin-top: 16px
   margin-right: 16px
+  z-index: 2
 
 
 .menu--bar 
@@ -35,10 +40,7 @@ body
   background: #f53a33
   margin-bottom: 2px
 
-
-
-
-
+  
 .main 
   position: relative
   margin: 0
