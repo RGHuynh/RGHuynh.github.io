@@ -2,10 +2,8 @@
   <skillset></skillset>
   <section class="card">
     <h1 class="card--title">My Recent Work</h1>
-    <project></project>
-    <project></project>
+    <project ng-repeat="project in $ctrl.projects()" data="project"></project>
   </section>
-
   <contact></contact>
 
 </main>
