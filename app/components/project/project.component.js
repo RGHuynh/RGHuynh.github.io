@@ -1,6 +1,9 @@
 (function(){
   var config = {
-    templateUrl: '/app/components/project/project.component.html'
+    templateUrl: '/app/components/project/project.component.html',
+    bindings: {
+      data: '<'
+    }
   };
   
   angular

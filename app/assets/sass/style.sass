@@ -9,6 +9,7 @@ $background-color: #f6dd55
 h1, h2, h3 
   margin: 0
   padding: 0
+  font-weight: normal
 
 html 
   min-height: 100%
@@ -34,8 +35,6 @@ body
   position: relative
   margin: 0
   padding: 0
-  height: 350px
-
 
 .card 
   text-align: center
@@ -43,9 +42,7 @@ body
   flex-direction: column
   min-width: 100%
   position: relative
-  top: 368px
   background-color: $background-color
-
 
 .card--title 
   margin-top: 28px
@@ -57,20 +54,19 @@ body
 
 .project 
   border: 1px solid #e4e4e4
-  height: 144px
-  width: 144px
+  height: 200px
+  width: 304px
   margin: auto
-  margin-bottom: 8px
+  margin-bottom: 24px
   border-radius: 20px
   display: block
-
+  background: white
+  border: 1px solid #3b0031
+  padding: 5px
 
 .project--image 
   height: 100%
-  width: 100%
-  border-radius: 20px
   object-fit: cover
-
 
 .footer 
   background: rgba(244, 221, 95, 100)
@@ -79,15 +75,12 @@ body
   text-align: center
   position: relative
   padding: 0
-  height: 100%
+  max-height: 50%
   width: 100%
-  bottom: -755px
-
 
 .social-media 
   height: 102px
   padding-top: 61px
-
 
 .icon 
   height: 38px
@@ -98,13 +91,11 @@ body
   margin-right: 8px
   display: inline
 
-
 .icon__display 
   outline: none
   text-decoration: none
   display: inline-block
   border-radius: 20px
-
 
 .icon--image 
   height: 38px
@@ -117,4 +108,6 @@ body
   font-size: 16px
   color: #3b0031
 
+.wrapper
+  position: relative
 

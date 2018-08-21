@@ -1,13 +1,10 @@
 $title-font: 'Montserrat', sans-serif
 $second-font: 'Roboto', sans-serif
-$font-color: #3b0031
+$color: #3b0031
 
 .contact
   position: relative
-  z-index: 4
-  top: 370px
   height: 352px
-  width: 377px
   border-radius: 20px
   text-align: center
   margin: auto
@@ -16,14 +13,14 @@ $font-color: #3b0031
   font-family: $title-font
   margin-top: 24px
   font-size: 16px
-  color: $font-color
+  color: $color
 
 .contact--text
   font-family: $second-font
   margin: 0
   margin-top: 1px
   font-size: 12px
-  color: $font-color
+  color: $color
 
 .contact--form
   margin-top: 24px
@@ -41,6 +38,7 @@ $font-color: #3b0031
   display: block
   width: 256px
   height: 24px
+  border: 1px solid $color
 
 .contact--button
   margin-top: 24px
@@ -49,8 +47,10 @@ $font-color: #3b0031
   border-radius: 20px
   font-family: $title-font
   font-size: 12px
+  background: transparent
+  border: 1px solid $color
 
 .list--item
   font-family: $second-font
   font-size: 12px
-  color: $font-color
+  color: $color
