@@ -93,7 +93,7 @@
   border-radius: 20px;
   width: 377px;
   height: 416px;
-  top: -5vh;
+  top: -36px;
   position: absolute;
   background: white;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
@@ -245,7 +245,7 @@ body {
   text-align: center;
   position: relative;
   padding: 0;
-  height: 100%;
+  max-height: 50%;
   width: 100%;
   bottom: -755px; }
 
