@@ -73,6 +73,97 @@
   margin: 0;
   height: 19px; }
 
+.skillset {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 377px;
+  height: 416px;
+  top: -5vh;
+  position: absolute;
+  background: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  margin: auto;
+  left: 0;
+  right: 0;
+  z-index: 1; }
+
+.skillset--heading {
+  font-family: "Montserrat", sans-sarif;
+  font-size: 16px;
+  color: #3b0031;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 24px; }
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 24px; }
+
+.skillset--title {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #3b0031;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 8px; }
+
+.contact {
+  position: relative;
+  z-index: 4;
+  top: 370px;
+  height: 352px;
+  width: 377px;
+  border-radius: 20px;
+  text-align: center;
+  margin: auto; }
+
+.contact--heading {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 24px;
+  font-size: 16px;
+  color: #3b0031; }
+
+.contact--text {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  margin-top: 1px;
+  font-size: 12px;
+  color: #3b0031; }
+
+.contact--form {
+  margin-top: 24px;
+  margin: auto;
+  width: 256px; }
+
+.form--label {
+  display: block;
+  text-align: left;
+  margin-top: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px; }
+
+.form--input {
+  display: block;
+  width: 256px;
+  height: 24px; }
+
+.contact--button {
+  margin-top: 24px;
+  width: 256px;
+  height: 48px;
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px; }
+
+.list--item {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #3b0031; }
+
 h1, h2, h3 {
   margin: 0;
   padding: 0; }
@@ -119,16 +210,10 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
-  padding-left: 30px;
-  padding-right: 30px;
-  border-radius: 20px;
-  box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.5);
-  position: absolute;
-  left: 50%;
-  margin-top: -56px;
-  margin-left: -182px;
-  background: white;
-  min-width: 304px; }
+  min-width: 100%;
+  position: relative;
+  top: 368px;
+  background-color: #f6dd55; }
 
 .card--title {
   margin-top: 28px;
@@ -157,14 +242,11 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  position: absolute;
-  right: 0;
-  left: 0;
-  padding: 1rem;
-  z-index: -1;
+  position: relative;
+  padding: 0;
   height: 100%;
-  margin-top: -56px;
-  padding: 0; }
+  width: 100%;
+  bottom: -755px; }
 
 .social-media {
   height: 102px;
