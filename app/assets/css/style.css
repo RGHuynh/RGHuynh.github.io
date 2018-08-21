@@ -170,7 +170,7 @@ h1, h2, h3 {
 
 html {
   min-height: 100%;
-  overflow: scroll;
+  overflow: hidden;
   overflow-x: hidden; }
 
 ::-webkit-scrollbar {
